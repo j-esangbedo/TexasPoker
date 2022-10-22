@@ -12,6 +12,7 @@ package com.mycompany.texaspoker;
 public class TexasPoker {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        StarterGamePage start = new StarterGamePage();
+        start.setVisible(true);
     }
 }
