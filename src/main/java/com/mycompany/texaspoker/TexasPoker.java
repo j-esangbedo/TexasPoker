@@ -12,11 +12,11 @@ package com.mycompany.texaspoker;
 public class TexasPoker {
 
     public static void main(String[] args) {
-<<<<<<< HEAD
+
         StarterGamePage start = new StarterGamePage();
         start.setVisible(true);
-=======
+
         System.out.println("2nd push");
->>>>>>> 8e219f9258f22e8ec25c62b6298c207d4aeb79e5
+
     }
 }
