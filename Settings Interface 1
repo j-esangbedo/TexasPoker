@@ -96,6 +96,38 @@ public class PokerGame extends JFrame {
 
 
 
+package PokerGameSettings;
 
+
+import javax.swing.JFrame;
+
+
+public class GameSettings extends JFrame{
+
+    private static final long serialVersionUID = 1L;
+
+    public GameSettings() {
+        initUI();
+    }
+
+    private void initUI() {
+
+        add(new PokerGame());
+
+        setTitle("Poker Game");
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setSize(380, 420);
+        setLocationRelativeTo(null);
+        setVisible(true);
+    }
+
+    public static void main(String args[]) {
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new GameSettings().setVisible(true);
+            }
+        });
+    }
+}
 	
 	
